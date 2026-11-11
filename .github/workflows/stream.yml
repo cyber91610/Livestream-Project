@@ -15,7 +15,7 @@ jobs:
           pipx install gdown
 
       - name: Download Video from Google Drive
-        run: gdown "https://drive.google.com/uc?id=YOUR_FILE_ID" -O video.mp4
+        run: gdown "https://drive.google.com/file/d/1IbBKJddGDcG3jMAM2Ey9ik5AAhGKcUel/view?usp=drivesdk" -O video.mp4
 
       - name: Stream to YouTube
         run: |
